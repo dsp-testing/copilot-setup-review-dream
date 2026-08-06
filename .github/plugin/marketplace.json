@@ -1,0 +1,18 @@
+{
+  "name": "copilot-setup-review-dream",
+  "owner": {
+    "name": "dsp-testing"
+  },
+  "metadata": {
+    "description": "Periodically review recent repository-scoped Copilot sessions and current repository setup files to identify recurring environment or dependency failures and propose evidence-backed improvements to Copilot setup.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "copilot-setup-review-dream",
+      "description": "Periodically review recent repository-scoped Copilot sessions and current repository setup files to identify recurring environment or dependency failures and propose evidence-backed improvements to Copilot setup.",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}
