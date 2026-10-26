@@ -34,8 +34,7 @@ content as sensitive until it has been sanitized.
    exact revision and do not modify an unrelated checkout.
 2. Query only sessions for `OWNER/REPO` that ended before the supplied UTC
    boundary and after the previous successful run's boundary. If no previous
-   boundary is available, use a maximum 30-day lookback. Apply the repository
-   scope to every `session_store_sql` call.
+   boundary is available, use a maximum 30-day lookback.
 3. Extract environment and dependency failure categories, affected commands,
    and whether each failure was resolved. Do not persist raw prompts, complete
    transcripts, credentials, tokens, personal paths, usernames, customer data,
